@@ -1,0 +1,54 @@
+{
+  "name": "md-file",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "aycayilmaz",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.11.0",
+    "browser-sync": "^2.26.7",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.15",
+    "react": "^16.9.0",
+    "vue": "^2.6.11",
+    "vue-burger-menu": "^2.0.5",
+    "vue-router": "^3.1.6",
+    "vue-showdown": "^2.4.1",
+    "vue-sidebar-menu": "^4.5.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@mdx-js/loader": "^1.5.7",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "raw-loader": "^4.0.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^13.7.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
